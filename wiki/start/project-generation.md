@@ -6,17 +6,18 @@ redirect_from:
   - /dev/project-generation/
 ---
 
-To setup your first project and download the necessary dependencies, libGDX offers a setup tool.
+To setup your first project and download the necessary dependencies, libGDX has offers a setup tool.
 
 {% include setup_flowchart.html current='1' %}
 
-1. Download the libGDX Project Setup Tool (gdx-setup):
+1. Download the libGDX Project Setup Tool called Gdx-LiftOff:
 
     <!--<a href="/assets/downloads/legacy_setup/gdx-setup_latest.jar" class="btn btn--success" style="margin-right: 10px">Stable Release</a>
     <a href="https://libgdx-nightlies.s3.amazonaws.com/libgdx-runnables/gdx-setup.jar" class="btn btn--success">Nightly Version</a>-->
-    <a href="https://libgdx-nightlies.s3.amazonaws.com/libgdx-runnables/gdx-setup.jar" class="btn btn--success">Download</a>
+    <!--<a href="https://libgdx-nightlies.s3.amazonaws.com/libgdx-runnables/gdx-setup.jar" class="btn btn--success">Download</a>-->
+    <a href="https://github.com/libgdx/gdx-liftoff/releases" class="btn btn--success">Download Gdx-LiftOff</a>
 
-2. Double-click the downloaded file. If this doesn't work, open your command line tool, go to the download folder and run <br><!--`java -jar gdx-setup_latest.jar`-->`java -jar gdx-setup.jar`. On Linux, you might need to right-click the file, select "Properties" and then check "Allow executing the file as program" in the "Permission" tab.
+3. In the section called Assets will be a file ending in '.jar'.  Download this file to your computer and double-click it. If this doesn't work, open your command line tool, go to the folder you saved the file and run <br>`java -jar gdx-liftoff-x.x.x.x.jar` where x.x.x.x is the version of the downloaded file.  At the time of writing this is version 'gdx-liftoff-1.12.1.11.jar' <br>On Linux, you might need to right-click the file, select "Properties" and then check "Allow executing the file as program" in the "Permission" tab.
 
 This will open the following setup that will allow you to generate your project:
 
